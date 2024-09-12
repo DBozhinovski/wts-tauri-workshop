@@ -9,7 +9,7 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  CN_APP_SLUG: "wts/WTS-tauri-workshop"
+  CN_APP_SLUG: "wts/workshop-wts"
 
 jobs:
   draft:
