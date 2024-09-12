@@ -2,14 +2,14 @@ name: 🚀 Release Process
 on:
   push:
     branches:
-      - main
+      - master
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
 env:
-  CN_APP_SLUG: "wts/workshop-wts"
+  CN_APP_SLUG: "wts/WTS-tauri-workshop"
 
 jobs:
   draft:
